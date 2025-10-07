@@ -150,8 +150,10 @@ Open `sentiment_final_enhanced.ipynb` and run all cells.
 ## Repository Structure
 ```
 .
-├─ sentiment_final_enhanced.ipynb
-├─ tweet.csv                  # dataset (not pushed if sensitive)
+├─ notebook
+|  ├─ sentiment_final_enhanced.ipynb
+├─ data
+|  ├─ tweet.csv                  # dataset (not pushed if sensitive)
 ├─ SentimentFinalEnhanced/    # created by the notebook (or in Drive if you set OUTPUT_DIR there)
 │  ├─ tweet_clean.csv
 │  ├─ tfidf.joblib
