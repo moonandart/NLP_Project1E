@@ -1,21 +1,25 @@
-# Byte-compiled / cache
+# --- Python cache / build ---
 __pycache__/
 *.py[cod]
-*.ipynb_checkpoints/
+*.pyo
+*.pyd
+*.so
+build/
+dist/
+*.egg-info/
+
+# --- Jupyter ---
 .ipynb_checkpoints/
 
-# OS files
+# --- OS cruft ---
 .DS_Store
+Thumbs.db
 
-# Env & secrets
+# --- Envs & secrets (keep your keys out of git) ---
 .env
 *.env
+.venv/
+venv/
+ENV/
 
-# Data & outputs
-tweet.csv
-SentimentFinalEnhanced/
-*.joblib
-*.png
-
-# Logs
-*.log
+# NOTE: We intentionally DO NOT ignore data/ or SentimentFinalEnhanced/ so they are committed.
