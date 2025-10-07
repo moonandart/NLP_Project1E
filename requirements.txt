@@ -1,0 +1,7 @@
+sastrawi
+scikit-learn
+joblib
+matplotlib
+pandas
+numpy
+nltk
