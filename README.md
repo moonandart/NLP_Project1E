@@ -20,7 +20,7 @@ End-to-end sentiment analysis for Indonesian tweets with a **clean preprocessing
 ---
 
 ## Overview
-This project is part of my AI Bootcamp especially in NLP area. It builds a sentiment classifier for Indonesian tweets and compares **Logistic Regression** vs **Multinomial Naive Bayes**, selecting the **best model by Macro F1**. The notebook also includes:
+This project is part of my AI Bootcamp assignment, especially in NLP area. It builds a sentiment classifier for Indonesian tweets and compares **Logistic Regression** vs **Multinomial Naive Bayes**, selecting the **best model by Macro F1**. The notebook also includes:
 - A **cleaning pipeline** tuned for social text (preserving `@mentions` and `#hashtags`)
 - **Indonesian stopword removal** and **Sastrawi stemming**
 - **TF-IDF word n-grams (1,2)**
